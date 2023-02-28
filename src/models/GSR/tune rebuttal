@@ -1,0 +1,101 @@
+########################Aug 06 GNN backbone##########################
+
+# G0 - g1-g3
+# tu0 -dcora -t0 -eRoughTune -r3 -oGCN;
+# tu0 -dcora -t0 -eRoughTune -r3 -oGAT;
+# tu0 -dcora -t0 -eRoughTune -r3 -oGraphSage;
+
+
+# G1 - g4-6
+# tu1 -dciteseer -t0 -eRoughTune -r3 -oGCN;
+# tu1 -dciteseer -t0 -eRoughTune -r3 -oGAT;
+# tu1 -dciteseer -t0 -eRoughTune -r3 -oGraphSage;
+
+# G2 - g7-g9
+# tu2 -dairport -t0 -eRoughTune -r3 -oGCN;
+# tu2 -dairport -t0 -eRoughTune -r3 -oGAT;
+# tu2 -dairport -t0 -eRoughTune -r3 -oGraphSage;
+
+# G3 - g10-g12
+# tu3 -dblogcatalog -t0 -eRoughTune -r3 -oGCN;
+# tu3 -dblogcatalog -t0 -eRoughTune -r3 -oGAT;
+# tu3 -dblogcatalog -t0 -eRoughTune -r3 -oGraphSage;
+
+# G4 - g13-g15
+# tu4 -dflickr -t0 -eRoughTune -r3 -oGCN;
+# tu4 -dflickr -t0 -eRoughTune -r3 -oGAT;
+# tu4 -dflickr -t0 -eRoughTune -r3 -oGraphSage;
+
+# G5 - g16-g18
+# tu5 -dblogcatalog -t0 -eRoughTune -r3 -oGCN -v;
+# tu5 -dblogcatalog -t0 -eRoughTune -r3 -oGAT -v;
+# tu5 -dblogcatalog -t0 -eRoughTune -r3 -oGraphSage -v;
+
+# G6 - g19-21
+# tu6 -dflickr -t0 -eRoughTune -r3 -oGCN -v;
+# tu6 -dflickr -t0 -eRoughTune -r3 -oGAT -v;
+# tu6 -dflickr -t0 -eRoughTune -r3 -oGraphSage -v;
+
+# G7 - g22-g24
+# tu7 -darxiv -t0 -eRoughTune -r3 -oGCN;
+# tu7 -darxiv -t0 -eRoughTune -r3 -oGCN -v;
+
+
+# tu7 -darxiv -t0 -eRoughTune -oGraphSage -r3 -v;
+# tu7 -darxiv -t0 -eRoughTune -r3 -oGAT -v;
+
+
+# tu0 -darxiv -t0 -eRoughTune -oGAT;
+# tu1 -darxiv -t0 -eRoughTune -r3 -oGCN;
+# tu2 -darxiv -t0 -eRoughTune -oGraphSage -r3;
+
+
+
+########################Aug 08 GNN backbone##########################
+# G0 - g1-g3
+# tu0 -dcora -t0 -eRoughTune -r3 -oGCN;
+# tu0 -dcora -t0 -eRoughTune -r3 -oGAT;
+# tu0 -dcora -t0 -eRoughTune -r3 -oGraphSage;
+
+# G1 - g4-6
+# tu1 -dciteseer -t0 -eRoughTune -r3 -oGCN;
+# tu1 -dciteseer -t0 -eRoughTune -r3 -oGAT;
+# tu1 -dciteseer -t0 -eRoughTune -r3 -oGraphSage;
+
+# G2 - g7-g9
+# tu2 -dairport -t0 -eRoughTune -r3 -oGCN;
+# tu2 -dairport -t0 -eRoughTune -r3 -oGAT;
+# tu2 -dairport -t0 -eRoughTune -r3 -oGraphSage;
+
+# G3 - g10-g12
+# tu3 -dblogcatalog -t0 -eRoughTune -r3 -oGCN;
+# tu3 -dblogcatalog -t0 -eRoughTune -r3 -oGAT;
+# tu3 -dblogcatalog -t0 -eRoughTune -r3 -oGraphSage;
+
+# G4 - g13-g15
+# tu4 -dflickr -t0 -eRoughTune -r3 -oGCN;
+# tu4 -dflickr -t0 -eRoughTune -r3 -oGAT;
+# tu4 -dflickr -t0 -eRoughTune -r3 -oGraphSage;
+
+# G5 - g16-g18
+# tu5 -dblogcatalog -t0 -eRoughTune -r3 -oGCN -v;
+# tu5 -dblogcatalog -t0 -eRoughTune -r3 -oGAT -v;
+# tu5 -dblogcatalog -t0 -eRoughTune -r3 -oGraphSage -v;
+
+# G6 - g19-21
+# tu6 -dflickr -t0 -eRoughTune -r3 -oGCN -v;
+# tu6 -dflickr -t0 -eRoughTune -r3 -oGAT -v;
+# tu6 -dflickr -t0 -eRoughTune -r3 -oGraphSage -v;
+
+# G7 - g22-g24
+# tu7 -darxiv -t0 -eRoughTune -r3 -oGCN;
+# tu7 -darxiv -t0 -eRoughTune -r3 -oGCN -v;
+
+
+# tu7 -darxiv -t0 -eRoughTune -oGraphSage -r3 -v;
+# tu7 -darxiv -t0 -eRoughTune -r3 -oGAT -v;
+
+
+# tu0 -darxiv -t0 -eRoughTune -oGAT;
+# tu1 -darxiv -t0 -eRoughTune -r3 -oGCN;
+# tu2 -darxiv -t0 -eRoughTune -oGraphSage -r3;
